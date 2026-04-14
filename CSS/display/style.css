@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    width: 100vw;
+    height: 10vh;
+    background-color: bisque;
+    color: rgb(78, 14, 87);
+    display: block;
+}
+
+h1 {
+    padding: 10px;
+    background-color: sandybrown;
+    color: darkred;
+    display: inline;
+    visibility: hidden;
+    /* display: none; */
+    /* <!-- This will remove the element from the layout,
+    while visibility: hidden will hide it but still take up space. also takes priority over the hidden -->
+    */
+}
+
+footer>a {
+    display: inline-block;
+    color: aquamarine;
+    padding: 200px;
+    background-color: rgb(92, 9, 74);
+    border: 2px solid aqua;
+}

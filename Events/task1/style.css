@@ -1,0 +1,9 @@
+
+.mid{
+    /* width: 20vw;
+    height: 50vh; */
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}

@@ -1,0 +1,178 @@
+/* * {
+    background-color: antiquewhite;
+}
+
+h1,
+p {
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.head {
+    background-color: rgb(228, 255, 244);
+    color: orangered;
+}
+
+#head {
+    background-color: coral;
+    color: white;
+} */
+
+/* Combinator seelctor */
+/* descendent selector  it will target direct and indirect children */
+/* div p{
+    background-color: aquamarine;
+    color: rgb(255, 136, 0);
+} */
+
+/* child selector  it will target only direct children */
+/* div > h2 {
+    color: rgb(255, 0, 200);
+    background-color: black;
+} */
+/* adjacent selector  effects the element that immediately follows it */
+/* h2 + p{
+    background-color: blueviolet;
+    color: rgb(255, 230, 0);
+} */
+/* h2 + h3{
+    background-color: blue;
+    color: white;
+} */
+
+/* general sibling selector  effects all elements that follow it */
+/* h2 ~ p{
+    background-color: green;
+    color: white;
+} */
+
+
+/* pseudo class selectors */
+/* a:link{
+    color:brown;
+}
+
+a:visited{
+    color:green;
+}
+
+a:hover{
+    color: pink;
+}
+
+a:active{
+    color: rgb(245, 107, 130);
+} */
+
+/* 
+input:focus{
+    background-color: rgb(225, 230, 207);
+}
+
+input:checked{
+    accent-color: rgb(150, 194, 137);
+}
+
+input:disabled{
+    
+    background-color: rgb(43, 151, 0);
+} */
+
+
+/* pseudo element selector */
+/* body{
+    background-color: rgb(200, 214, 179 );
+}
+h1::first-letter{
+    color: rgb(255, 0, 55);
+    font-size: 2em;
+}
+
+h1::before{
+    content: "(❁´◡`❁)"
+}
+
+h1::after{
+    content:"(✿◡‿◡)"
+}
+p::first-line{
+    background-color: yellow;
+}
+/* pseudo class  */
+/*
+p::selection{
+    background-color: rgba(47, 48, 7, 0.5);
+    color:whitesmoke
+}
+
+li::marker{
+    content: "⭐"
+}
+
+input::placeholder{
+    color:rgb(5, 103, 128)
+} */
+
+
+
+/* UNITS */
+
+*{
+     margin: 0;
+     padding:0;
+     box-sizing: border-box;
+}
+div{
+    background-color: rgb(228, 255, 106);
+    width: 100vw;
+    height: 100vh;
+    color: green;
+    font-size: 70px;
+    padding: 10px
+}
+
+main{
+    background-color: red;
+    width: 50px;
+    height: 50px;;
+    font-size: 2em;
+    padding: 0px
+}
+
+body{
+    background-color: rgb(255, 0, 0);
+    margin: none;
+
+}
+
+main:hover{
+    color: white;
+}
+
+main::selection
+{
+    background-color: black;
+    color: white;
+}
+
+nav{
+    width: 100vw;
+}
+
+button{
+    background-color: rgb(0, 87, 0);
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+    padding: 50px 20px 0px 20px ;
+    margin: 0;
+    border: 0px 0px 5px 0px solid white;;
+}
+button:hover{
+    background-color: rgba(3, 39, 3, 0.274);
+    color: rgb(27, 46, 5);
+    font-size: 20px;
+    padding: 50px 20px 0px 20px ;
+    margin: 0;
+    border: 2px solid white;;
+    cursor: pointer;
+}
