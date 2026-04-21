@@ -1,0 +1,23 @@
+div ul>li {
+    color: rgb(255, 166, 0)
+}
+
+.paneer {
+    color: cyan
+}
+
+div ul ul li {
+    color: rgb(0, 0, 0);
+}
+
+h1 + ul > li{
+    color:rgb(255,166,0);
+}
+
+.lassi  > li{
+    color: green;
+}
+
+.lassi ul li{
+    color:brown;
+}

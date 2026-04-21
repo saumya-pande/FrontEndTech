@@ -1,0 +1,79 @@
+# =========================
+# Node / Frontend
+# =========================
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+out/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# =========================
+# Editor / OS files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.log
+
+# =========================
+# Assets (heavy files)
+# =========================
+
+# Images
+assets/images/
+assets/img/
+assets/pictures/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+
+# Audio
+assets/audio/
+assets/sounds/
+*.mp3
+*.wav
+*.ogg
+
+# Video
+assets/video/
+assets/videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar
+*.gz
+*.rar

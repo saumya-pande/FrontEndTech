@@ -1,0 +1,17 @@
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    position: relative;
+    top: 200px;
+    left: 200px
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 500px;
+    left: 50px
+}

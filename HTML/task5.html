@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Order</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <h2 style="background-color: yellow; padding-left: 70px;"><i class="fa-solid fa-pizza-slice"> </i>Pizza Mania<i
+            class="fa-solid fa-pizza-slice"> </i></h2>
+    <fieldset>
+        <legend>
+            <h1><i class="fa-solid fa-pizza-slice"> </i>Pizza Order Here<i class="fa-solid fa-pizza-slice"> </i></h1>
+        </legend>
+
+        <form>
+
+            <table cellpadding="10">
+
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" placeholder="First Name"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Last Name:</td>
+                    <td><input type="text" placeholder="Last Name"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="abc@example.com"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Contact:</td>
+                    <td><input type="text" placeholder="Ex:8989898989"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Preferred Delivery Date:</td>
+                    <td><input type="date"></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>Size:</td>
+                    <td>
+                        Small <input type="radio" name="size">
+                        Medium <input type="radio" name="size">
+                        Large <input type="radio" name="size">
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td><mark><b><i>Outlet:</i></b></mark></td>
+                    <td>
+                        <select>
+                            <option>Select Outlet</option>
+                            <option>Domino's</option>
+                            <option>Pizza Hut</option>
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <h3>Menu ↓</h3>
+                    </td>
+                </tr>
+
+                <!-- MENU ITEMS -->
+                <tr>
+                    <td><img src="assets/images/Pizza1.png" width="70"></td>
+                    <td>
+                        <input type="checkbox"> <b>Hawaiian (150₹ <strike>170₹</strike>)</b>
+                    </td>
+                    <td>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><img src="assets/images/Pepperoni.png" width="70"></td>
+                    <td>
+                        <input type="checkbox"> <b>Pepperoni (140₹ <strike>160₹</strike>)</b>
+                    </td>
+                    <td>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><img src="assets/images/Pesto.png" width="70"></td>
+                    <td>
+                        <input type="checkbox"><b> Vegetable (130₹ <strike>150₹</strike>)</b>
+                    </td>
+                    <td>
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <h3>Extra Details ↓</h3>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-credit-card"></i></td>
+                    <td><b>Credit Card:</b></td>
+                    <td>
+                        <input type="text" placeholder="1234-5678-9123-1111">
+                        <button>Verify</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-location-dot"></i></td>
+                    <td><b>Pin:</b></td>
+                    <td><input type="text" placeholder="421604"></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-image"></i></td>
+                    <td><mark><i><u><b>Upload photo for discount</b></u></i></mark></td>
+                    <td><input type="file"></td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-note-sticky"></i></td>
+                    <td><mark><i><b>Additional Note:</b></i></mark></td>
+                    <td>
+                        <textarea rows="3" cols="25"
+                            placeholder="If any additional Requirement There Please Mention Here"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><i class="fa-solid fa-star"></i></td>
+                    <td><mark><i><b>Rating:</b></i></mark></td>
+                    <td><input type="range"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><button>Submit Order</button></td>
+                </tr>
+
+            </table>
+
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
